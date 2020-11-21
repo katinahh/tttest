@@ -27,7 +27,21 @@ console.log(firstPart * secondPart);
 // console.log(secondPart);
 // console.log(firstPart);
 
-///////////////////////////////////////// 
+///////////////////////////////////////// Integer 15 - Як ввивести число без пробілів???
+
+let number3 = 357;
+let firstPart3 = Math.trunc(number3/100);
+// let thirdPart3 = number3 - (firstPart3 * 100);
+let secondPart3 = Math.trunc((number3 % 100) / 10);
+let thirdPart3 = (number3 % 100) % 10;
+console.log(thirdPart3, secondPart3, firstPart3);
+console.log(`${secondPart3}${thirdPart3}${firstPart3}`); //думаю це не вірно
+
+// console.log(firstPart3);
+// console.log(secondPart3);
+// console.log(thirdPart3);
+
+
 
 
 
