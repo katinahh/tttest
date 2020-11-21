@@ -1,4 +1,18 @@
-// "use strict"
+"use strict"
+////////////////////////////////////////// Begin 23
+let a = 3, b = 4, c = 5, d = a;
+a = c, c = b, b = d;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+////////////////////////////////////////// Begin 26
+let x = 6;
+console.log(4 * (x ** 6 - 3 ** 6) - 7 * (x ** 3 - 3 ** 3) + 2);
+
+
+
 
 // let user = "John"
 // let age = 25;
@@ -54,4 +68,4 @@
 // let value = true;
 // console.log(typeof value);
 
-console.log(4%3);
+// console.log(4%3);
