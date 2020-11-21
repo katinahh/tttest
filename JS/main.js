@@ -11,6 +11,33 @@ console.log(c);
 let x = 6;
 console.log(4 * (x ** 6 - 3 ** 6) - 7 * (x ** 3 - 3 ** 3) + 2);
 
+///////////////////////////////////////// Integer 3
+let someNumber = 1939090;
+const KILOBITE = 1024;
+
+console.log(Math.trunc(someNumber/KILOBITE));
+
+///////////////////////////////////////// Integer 7 - підглянула, костильно.
+let someAnotherNum = 88;
+let secondPart = someAnotherNum % 10;
+let firstPart = Math.trunc(someAnotherNum/10);
+console.log(firstPart + secondPart);
+console.log(firstPart * secondPart);
+
+// console.log(secondPart);
+// console.log(firstPart);
+
+///////////////////////////////////////// 
+
+
+
+
+
+
+
+
+
+
 
 
 
