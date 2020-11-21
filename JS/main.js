@@ -41,12 +41,49 @@ console.log(`${secondPart3}${thirdPart3}${firstPart3}`); //думаю це не 
 // console.log(secondPart3);
 // console.log(thirdPart3);
 
+///////////////////////////////////////// Integer 20 - ???
+let hourNumber = 85000;
+const hour = 3600;
+let numberOfHour = Math.trunc(hourNumber / hour);
+console.log(numberOfHour);
 
+// console.log(Math.trunc(hourNumber/3600));
 
+///////////////////////////////////////// Integer 20
+// let numK = 577;
+// let mon = 1, tue = 2, wed = 3, thu = 4, fri = 5, sat = 6, san = 7;
 
+////////////////
+/////////////////////////////
+///////////////
 
+///////////////////////////// boolean 4
+let aa = 14;
+let bb = 5;
 
+let result = aa > 2 && bb < 3 ? "True" : "No-No-No!";
+console.log(result);
+// if (aa > 2 && bb<=3){console.log("True");} else {console.log("No-No");};
+// let result = условие ? значение1 : значение2;
 
+///////////////////////////// boolean 8
+
+let aaa = 8;
+let bbb = 9;
+
+let result2  = aaa % 2 == 0 && bbb % 2 == 0 ? "True" : "Really ?";
+console.log(result2);
+
+///////////////////////////// boolean 8
+let ourNumber = 333;
+
+if(ourNumber > 99 && ourNumber < 999 && ourNumber % 2 == 1){
+    console.log("Best! True");
+} else {
+    console.log("No, smth wrong");
+};
+
+// ////////////////////////////////boolean 24 ???
 
 
 
